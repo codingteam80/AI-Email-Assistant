@@ -1,0 +1,10 @@
+streamlit>=1.60.0,<2.0.0
+python-dotenv
+msal
+requests
+tzdata>=2024.1
+Pillow>=10.0,<13.0
+opencv-python>=4.10,<6.0
+PyMuPDF>=1.24,<2.0
+rapidocr-onnxruntime>=1.4,<2.0
+qrcode[pil]>=8.0,<9.0

@@ -1,0 +1,46 @@
+{
+  "attachment_policy": {
+    "safe": {
+      "Documents": [".pdf", ".doc", ".docx", ".odt", ".rtf", ".txt"],
+      "Spreadsheets": [".xls", ".xlsx", ".ods", ".csv"],
+      "Presentations": [".ppt", ".pptx", ".odp"],
+      "Images": [".jpg", ".jpeg", ".png", ".gif", ".webp", ".bmp", ".tif", ".tiff", ".heic", ".heif"],
+      "Audio": [".mp3", ".wav", ".m4a", ".aac", ".ogg", ".flac"],
+      "Video": [".mp4", ".mov", ".avi", ".mkv", ".webm"],
+      "Data / text": [".json", ".xml", ".md", ".log"],
+      "Calendar / contacts": [".ics", ".vcf"]
+    },
+    "warning": {
+      "Archives": [".zip", ".7z", ".rar", ".tar", ".gz", ".tgz", ".bz2", ".xz"],
+      "Macro-enabled Office": [".docm", ".dotm", ".xlsm", ".xlsb", ".xlam", ".pptm", ".potm"],
+      "Active web content": [".svg", ".html", ".htm", ".mhtml"],
+      "Email files": [".eml", ".msg"],
+      "Disk / app packages": [".iso", ".img", ".dmg", ".pkg", ".apk"],
+      "Other active containers": [".one"]
+    },
+    "high_risk": {
+      "Executables": [".exe", ".msi", ".com", ".scr", ".cpl"],
+      "Scripts": [".bat", ".cmd", ".ps1", ".js", ".jse", ".vbs", ".vbe", ".wsf", ".wsh", ".sh", ".hta", ".command"],
+      "Developer runnable": [".jar", ".py", ".psm1"],
+      "System / shortcuts": [".dll", ".sys", ".reg", ".lnk", ".url", ".desktop"]
+    },
+    "high_risk_mime_types": [
+      "application/x-msdownload",
+      "application/x-dosexec",
+      "application/x-msi",
+      "application/x-sh",
+      "application/x-shellscript"
+    ],
+    "warning_mime_types": [
+      "application/zip",
+      "application/x-7z-compressed",
+      "application/x-rar-compressed",
+      "application/gzip",
+      "application/x-gzip",
+      "application/x-tar",
+      "image/svg+xml",
+      "text/html",
+      "message/rfc822"
+    ]
+  }
+}
